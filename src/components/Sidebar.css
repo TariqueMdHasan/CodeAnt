@@ -92,4 +92,7 @@
     .sidebar-btns-lower{
         padding-bottom: 10px;
     }
+    .sidebar-button{
+        font-weight: 600;
+    }
 }

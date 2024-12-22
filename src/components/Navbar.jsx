@@ -26,7 +26,7 @@ function Navbar() {
                 <div className="navbar-nv">
                     <Sidebar />
                 </div>
-            )}
+            )} 
         </div>
     )
 }

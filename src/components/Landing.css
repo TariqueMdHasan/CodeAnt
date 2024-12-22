@@ -149,5 +149,17 @@
     .subtract{
         display: none;
     }
+    .saas-form-btn{
+        width: 90%;
+    }
+    .Landing-right-content-upper-logo h1{
+        margin: 0px;
+        font-family: "Inter", serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 1.3rem;
+        margin-bottom: 8%;
+    }
 }
 

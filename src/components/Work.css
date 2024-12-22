@@ -75,3 +75,13 @@
     display: flex;
     align-items: center;
 }
+
+@media screen and (max-width: 768px){
+    .work-content-child-3{
+        margin-left: 1rem;
+    }
+    .work-content-child-2{
+        margin-left: 1rem;
+    }
+    
+}
