@@ -12,6 +12,9 @@
     flex-direction: column;
     border-bottom: 1px solid #E9EAEB;
 }
+.Work-container:hover{
+    background: #F5F5F5;
+}
 .Work-header{
     display: flex;
     height: 2.5rem;
