@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+.Landing{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+.Landing-left{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.LMain{
+    width: 30vw;
+}
+.Landing-right{
+    width: 50vw;
+    height: 100vh;
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid #E9EAEB;
+}
+.Landing-right-container{
+    width: 90%;
+    height: 78%; 
+    background-color: #fff;
+    border: 1px solid #E9EAEB;
+    border-radius: 10px;
+}
+.subtract{
+    position: absolute;
+    width: 13vw;
+    left: 0%;
+    bottom: 0%;
+}
+.Landing-right-content-upper{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #E9EAEB;
+}
+.Landing-right-content-upper-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Landing-right-content-upper-logo h1{
+    margin: 0px;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.7rem;
+    margin-bottom: 8%;
+}
+.Landing-right-content-upper-btns{
+    width: 90%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #D8DAE5;
+    background-color: #E9EAEB;
+    border-radius: 5px;
+}
+.landing-button{
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Inter", serif;
+    font-size: 1.2rem;
+    width: 50%;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    background-color: #E9EAEB;
+    color: black;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer; 
+    
+}
+   
+.landing-button.active{
+    background-color: #1570EF;
+    color: white;
+}
+.saas-form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.saas-form-btn{
+    width: 50%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    height: 40px;
+    font-family: "Inter", serif;
+    background-color: #fff;
+    border: 1px solid #D8DAE5;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.saas-form-btn h3{
+    font-family: "Inter", serif;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-left: 1rem;
+}
+.gitlab, .azure, .bitbucket{
+    width: 20px;
+}
+.self-hosted-form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Landing-right-content-lower{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+@media screen and (max-width: 768px){
+   
+    .Landing-left{
+        display: none;
+    }
+    .Landing-right{
+        width: 100vw;
+    }
+    .subtract{
+        display: none;
+    }
+}
+

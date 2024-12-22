@@ -1,0 +1,76 @@
+.LargeScreen{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.LS-sidebar{
+    width: 17vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.LS-sidebar-logo{
+    height: 3rem;
+    width: 100%;
+}
+.LS-sidebar-others{
+    height: calc(100% - 3rem);
+    width: 100%;
+}
+
+
+/* main */
+.LS-main{
+    width: 83vw;
+    height: 100%;
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.LS-main-container{
+    height: calc(100% - 2rem);
+    width: calc(100% - 2rem);
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid #E9EAEB;
+    border-radius: 10px;
+}
+.LS-main-header{
+    height: 7rem;
+    width: 100%;
+}
+.LS-main-navbar{
+    display: none;
+}
+
+@media  screen and (max-width: 1050px){
+    .LS-sidebar{
+        width: 24vw;
+    }
+    .LS-main{
+        width: 76vw;
+    }
+}
+@media  screen and (max-width: 768px){
+    .LS-sidebar{
+        display: none;
+    }
+    .LS-main{
+        width: 100vw;
+    }
+    .LS-main-navbar{
+        display: block;
+    }
+    .LS-main-content{
+        margin-top: 6rem;
+    }
+    .LS-main-container{
+        height: 100vh;
+        width: 100vw;
+    }
+}
