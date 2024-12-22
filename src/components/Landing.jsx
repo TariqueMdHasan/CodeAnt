@@ -6,9 +6,9 @@ import LMain from './assets/main-left-icon.png';
 import Logo from './Logo';
 import { GoKey } from "react-icons/go";
 import Gitlab from './assets/gitlab-logo.png';
-import { IoLogoGithub } from "react-icons/io";
 import Azure from './assets/azure-logo.png';
 import Bitbucket from './assets/bitbucket-icon.png';
+import Github from './assets/github-icon.png';
 
 
 function Landing() {
@@ -73,7 +73,7 @@ function Landing() {
                     <div className='self-hosted-form'>
                   <button className='saas-form-btn' onClick={ () => navigate('/main')}>
                     <div>
-                      <IoLogoGithub />
+                      <img src={Github} alt="github" className='github'/>
                     </div>
                     <h3>Sign in with Github</h3>
                   </button>
