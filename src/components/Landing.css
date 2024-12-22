@@ -20,6 +20,7 @@
     height: 100vh;
     background-color: #FAFAFA;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     border-left: 1px solid #E9EAEB;
@@ -136,6 +137,12 @@
     flex-direction: column;
     align-items: center;
 
+}
+.policy{
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Inter", serif;
+    font-size: 0.7rem;
 }
 
 @media screen and (max-width: 768px){
