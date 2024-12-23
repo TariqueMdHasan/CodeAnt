@@ -60,7 +60,7 @@ function Header({ setSearchTerm }) {
             <div className='header-container-top'>
                 <div className='header-rep-container'>
                     <h1 className='header-rep'>Repositories</h1>
-                    <p className='header-tp'>33 total repositories</p>
+                    <p className='header-tp'>56 total repositories</p>
                 </div>
                 <div className='header-btn-container'>
                     <button className='header-refresh'>
