@@ -51,6 +51,54 @@ const Data = [
     tags: 'HTML/CSS',
     storage: '6210 KB',
     date: 'Updated 4 days ago'
+  },
+  {
+    id: 7,
+    title: 'design-system',
+    status: 'public',
+    tags: 'React',
+    storage: '7320 KB',
+    date: 'Updated 1 days ago'
+  },
+  {
+    id: 8,
+    title: 'codeant-ci-app',
+    status: 'private',
+    tags: 'Javascript',
+    storage: '5871 KB',
+    date: 'Updated 2 days ago'
+  },
+  {
+    id: 9,
+    title: 'analyticcs-dashboard',
+    status: 'Private',
+    tags: 'Swift',
+    storage: '4521 KB',
+    date: 'Updated 5 days ago'
+  },
+  {
+    id: 10,
+    title: 'mobile-app',
+    status: 'public',
+    tags: 'Python',
+    storage: '3096 KB',
+    date: 'Updated 3 days ago'
+  },
+  {
+    id: 11,
+    title: 'e-commerce--platform',
+    status: 'Private',
+    tags: 'Java',
+    storage: '1876 KB',
+    date: 'Updated 6 days ago'
+  },
+  {
+    id: 12,
+    title: 'blog-website',
+    status: 'Public',
+    tags: 'HTML/CSS',
+    storage: '6210 KB',
+    date: 'Updated 4 days ago'
   }
 ]
 

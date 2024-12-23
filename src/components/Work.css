@@ -1,9 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-.Work{
+
+.Work {
     width: 100%;
-    height: 100%;
+    height: 100%; 
+    max-height: calc(100vh - 9rem); 
     display: flex;
     flex-direction: column;
+    overflow-y: auto; 
+    overflow-x: hidden; 
+    scrollbar-width: thin; 
+    scrollbar-color: #B2DDFF transparent; 
+}
+.Work::-webkit-scrollbar {
+    width: 8px; 
+}
+.Work::-webkit-scrollbar-thumb {
+    background: #B2DDFF; 
+    border-radius: 4px; 
+}
+.Work::-webkit-scrollbar-track {
+    background: transparent;
 }
 .Work-container{
     width: 100%;
